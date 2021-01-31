@@ -69,3 +69,14 @@ PRODUCT_PACKAGES += \
 
 # Inherit proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/lavender/lavender-vendor.mk)
+
+#prebuiltApk
+PRODUCT_PACKAGES += \
+    YZXChrome \
+    YZXTim \
+    YZXAlipay \
+    YZXWxwork \
+    YZXWx \
+    YZXTaobao \
+    YZXNeteasemusic \
+    YZXBIP
